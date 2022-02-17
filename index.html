@@ -7,6 +7,95 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Task Manager</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h1 class="logo">.kanban</h1>
+        <ul class="menu-top">
+          <li class="menu-item">
+            <img
+              src="./assets/icons/daily-icon.svg"
+              alt="daily"
+              class="menu-icon"
+            />Daily Plans<a href="#" class="menu-link"></a>
+          </li>
+          <li class="menu-item">
+            <img
+              src="./assets/icons/favorite-icon.svg"
+              alt="favorite"
+              class="menu-icon"
+            />Favorites<a href="#" class="menu-link"></a>
+          </li>
+          <li class="menu-item">
+            <img
+              src="./assets/icons/project-icon.svg"
+              alt="project"
+              class="menu-icon"
+            />Projects<a href="#" class="menu-link"></a>
+          </li>
+        </ul>
+        <ul class="menu-bottom">
+          <li class="menu-item">
+            <img
+              src="./assets/icons/settings-icon.svg"
+              alt="settings"
+              class="menu-icon"
+            />Settings<a href="#" class="menu-link"></a>
+          </li>
+          <li class="menu-item">
+            <img
+              src="./assets/icons/logout-icon.svg"
+              alt="logout"
+              class="menu-icon"
+            />Logout<a href="#" class="menu-link"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="header">
+          <div class="search-bar">
+            <img
+              src="./assets/icons/search-icon.svg"
+              alt="search"
+              class="search-icon"
+            />
+            <input type="text" class="search-input" placeholder="Search" />
+          </div>
+          <div class="profile">
+            <span class="profile-name"> Jhon Doe </span>
+            <img
+              src="./assets/icons/chevron-down.svg"
+              alt=""
+              class="chevron-down"
+            />
+            <div class="profile-img">
+              <img src="./assets/images/profile-img.jpg" alt="profile image" />
+            </div>
+          </div>
+        </div>
+        <div class="content-main">
+          <h3 class="title">Projects</h3>
+          <div class="project-bar">
+            <div class="project-top">
+              <h5 class="project-title">Todo</h5>
+              <span class="project-number">2</span>
+            </div>
+            <button class="project-add-btn">
+              <img src="./assets/icons/plus-icon.svg" alt="plus-icon" />
+            </button>
+            <div class="project-card">
+              <h4 class="card-title">E-commerce Project</h4>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                eaque omnis, cum magnam optio repellat dolor, quas sapiente
+                mollitia minus iste, fuga ullam distinctio libero repudiandae.
+                Quod, culpa? Placeat, nostrum!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
   <script src="./js/main.js"></script>
 </html>
