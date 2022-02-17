@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(180deg, #bdd4e7 0%, #8693ab 100%);
+  height: 100vh;
+  font-size: 1rem;
+  color: #8693ab;
+}
+
 ul,
 li {
   list-style: none;
@@ -19,6 +32,48 @@ a {
 button {
   cursor: pointer;
   border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #454a54;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #fafafa;
+  border-radius: 1.5rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.125rem;
+  min-width: 280px;
+  border-right: 1px solid #8693ab;
+}
+.sidebar .logo {
+  font-size: 1.5rem;
+  margin-bottom: 70px;
+}
+.sidebar .menu-item {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.sidebar .menu-item i {
+  margin-right: 0.75rem;
+}
+.sidebar .active {
+  color: #454a54;
 }
 
 /*# sourceMappingURL=style.css.map */

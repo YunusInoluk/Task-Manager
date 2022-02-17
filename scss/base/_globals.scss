@@ -5,6 +5,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  background-image: $bg-gradient;
+  height: 100vh;
+  font-size: $fs-m;
+  color: $text-color;
+}
 ul,
 li {
   list-style: none;
@@ -16,4 +27,19 @@ a {
 button {
   cursor: pointer;
   border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $title-color;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  background-color: $base-color;
+  border-radius: 1.5rem;
 }

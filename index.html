@@ -4,70 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/86932858c2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>Task Manager</title>
   </head>
   <body>
     <div class="container">
       <div class="sidebar">
-        <h1 class="logo">.kanban</h1>
-        <ul class="menu-top">
-          <li class="menu-item">
-            <img
-              src="./assets/icons/daily-icon.svg"
-              alt="daily"
-              class="menu-icon"
-            />Daily Plans<a href="#" class="menu-link"></a>
-          </li>
-          <li class="menu-item">
-            <img
-              src="./assets/icons/favorite-icon.svg"
-              alt="favorite"
-              class="menu-icon"
-            />Favorites<a href="#" class="menu-link"></a>
-          </li>
-          <li class="menu-item">
-            <img
-              src="./assets/icons/project-icon.svg"
-              alt="project"
-              class="menu-icon"
-            />Projects<a href="#" class="menu-link"></a>
-          </li>
-        </ul>
+        <div>
+          <h1 class="logo">.kanban</h1>
+          <ul class="menu-top">
+            <li class="menu-item">
+              <i class="fa-solid fa-sun"></i>Daily Plans<a
+                href="#"
+                class="menu-link"
+              ></a>
+            </li>
+            <li class="menu-item">
+              <i class="fa-solid fa-star"></i>Favorites<a
+                href="#"
+                class="menu-link"
+              ></a>
+            </li>
+            <li class="menu-item active">
+              <i class="fa-solid fa-folder"></i>Projects<a
+                href="#"
+                class="menu-link"
+              ></a>
+            </li>
+          </ul>
+        </div>
         <ul class="menu-bottom">
           <li class="menu-item">
-            <img
-              src="./assets/icons/settings-icon.svg"
-              alt="settings"
-              class="menu-icon"
-            />Settings<a href="#" class="menu-link"></a>
+            <i class="fa-solid fa-gear"></i>Settings<a
+              href="#"
+              class="menu-link"
+            ></a>
           </li>
           <li class="menu-item">
-            <img
-              src="./assets/icons/logout-icon.svg"
-              alt="logout"
-              class="menu-icon"
-            />Logout<a href="#" class="menu-link"></a>
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>Logout<a
+              href="#"
+              class="menu-link"
+            ></a>
           </li>
         </ul>
       </div>
       <div class="main">
         <div class="header">
           <div class="search-bar">
-            <img
-              src="./assets/icons/search-icon.svg"
-              alt="search"
-              class="search-icon"
-            />
+            <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" class="search-input" placeholder="Search" />
           </div>
           <div class="profile">
             <span class="profile-name"> Jhon Doe </span>
-            <img
-              src="./assets/icons/chevron-down.svg"
-              alt=""
-              class="chevron-down"
-            />
+            <i class="fa-solid fa-chevron-down"></i>
             <div class="profile-img">
               <img src="./assets/images/profile-img.jpg" alt="profile image" />
             </div>
@@ -81,7 +78,7 @@
               <span class="project-number">2</span>
             </div>
             <button class="project-add-btn">
-              <img src="./assets/icons/plus-icon.svg" alt="plus-icon" />
+              <i class="fa-solid fa-plus"></i>
             </button>
             <div class="project-card">
               <h4 class="card-title">E-commerce Project</h4>
