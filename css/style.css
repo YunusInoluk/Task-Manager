@@ -76,4 +76,48 @@ h6 {
   color: #454a54;
 }
 
+.main {
+  padding: 3.125rem 3.125rem 0 1.5rem;
+}
+.main .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.5rem;
+}
+.main .header .search-bar {
+  background-color: #fff;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  width: 50%;
+}
+.main .header .search-bar input {
+  border: none;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 90%;
+  height: 2.5rem;
+}
+.main .header .profile {
+  display: flex;
+  align-items: center;
+  color: #454a54;
+}
+.main .header .profile .profile-name {
+  margin-right: 0.2rem;
+  font-size: 0.875rem;
+}
+.main .header .profile .profile-img {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+.main .header .profile .profile-img img {
+  width: 100%;
+  height: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
